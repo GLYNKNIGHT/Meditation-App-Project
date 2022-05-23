@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.app{
+    height: 100vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.time-select,
+.player-container,
+.sound-picker{
+    height:90% ;
+    flex: 1;
+
+
+
+}
+
+.time-select{
+    background-color: aqua;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.player-container{
+    background-color:blueviolet
+}
+
+.sound-picker{
+    background-color: pink;
+}
